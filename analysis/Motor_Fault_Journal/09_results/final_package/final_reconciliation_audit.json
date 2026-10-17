@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_protected_locks_completed": true,
+    "primary_metrics_reproduce_from_predictions": true,
+    "robustness_audit_pass": true,
+    "window_650_reproduction_pass": true,
+    "claim_C4_not_overstated": true,
+    "claim_C5_not_overstated": true,
+    "secondary_warning_present": true
+  },
+  "lock_checks": {
+    "09_results\\step_12_primary\\TEST_EVALUATION_LOCK.json": true,
+    "09_results\\step_13_random_comparison\\TEST_EVALUATION_LOCK.json": true,
+    "09_results\\step_14_feature_ablation\\TEST_EVALUATION_LOCK.json": true,
+    "09_results\\step_15_window_sensitivity\\TEST_EVALUATION_LOCK.json": true,
+    "09_results\\step_16_secondary_four_class\\TEST_EVALUATION_LOCK.json": true
+  },
+  "primary_metric_checks": {
+    "macro_f1": true,
+    "balanced_accuracy": true,
+    "mcc": true,
+    "macro_precision": true,
+    "macro_recall": true,
+    "accuracy": true
+  }
+}

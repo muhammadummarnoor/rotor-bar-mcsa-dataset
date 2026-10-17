@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETED",
+  "purpose": "Prevent repeated confirmatory test evaluation",
+  "selected_configuration_sha256": "8fa6bf038d645c4ffe24dcb02c2439255a8074e47380c5114a53ebcddaae7993",
+  "test_prediction_calls_permitted": 1,
+  "run_record_sha256": "8f04780e91b4cb723f040d6adf12123e03f719512acd4c2d2e70a802cb5ecc1e"
+}

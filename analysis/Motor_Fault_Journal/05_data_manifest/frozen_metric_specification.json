@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "frozen_date": "2026-08-24",
+  "primary_task_labels": ["drb_1", "drb_2", "drb_3"],
+  "secondary_task_labels": ["healthy", "drb_1", "drb_2", "drb_3"],
+  "primary_selection_metric": "validation_macro_f1",
+  "primary_test_metric": "macro_f1",
+  "supporting_aggregate_metrics": [
+    "balanced_accuracy",
+    "matthews_correlation_coefficient",
+    "macro_precision",
+    "macro_recall",
+    "accuracy"
+  ],
+  "classwise_metrics": ["precision", "recall", "f1", "support"],
+  "diagnostic_outputs": ["fixed-order confusion matrix", "training time", "inference time"],
+  "zero_division_policy": 0,
+  "uncertainty": {
+    "method": "nonparametric percentile bootstrap",
+    "cluster_unit": "complete test block",
+    "stratification": "true class",
+    "confidence_level": 0.95,
+    "resamples": 2000,
+    "random_state": 20260824,
+    "interval_metrics": ["macro_f1", "balanced_accuracy", "mcc", "accuracy"]
+  }
+}

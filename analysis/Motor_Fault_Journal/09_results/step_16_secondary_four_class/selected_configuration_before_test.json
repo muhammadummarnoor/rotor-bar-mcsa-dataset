@@ -1,0 +1,42 @@
+{
+  "task": "secondary_H0_F1_F2_F3",
+  "labels": [
+    "healthy",
+    "drb_1",
+    "drb_2",
+    "drb_3"
+  ],
+  "split_strategy": "guard_separated_time_blocked",
+  "selection_data": "training fit; validation ranking only",
+  "feature_family": "combined",
+  "classifier": "ExtraTrees",
+  "variant_index": 0,
+  "validation_macro_f1": 1.0,
+  "validation_balanced_accuracy": 1.0,
+  "validation_mcc": 1.0,
+  "parameters": {
+    "bootstrap": false,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 6,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 400,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 20260824,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "candidate_count": 144,
+  "random_state": 20260824,
+  "status": "secondary_due_to_assembly_confounding",
+  "mandatory_warning": "ASSEMBLY-CONFOUNDING WARNING: H0 used a different rotor-shaft-bearing assembly from the drilled-fault conditions. Therefore healthy-versus-fault discrimination may reflect assembly identity as well as rotor-bar condition. This secondary four-class result is not evidence of assembly-independent fault detection."
+}

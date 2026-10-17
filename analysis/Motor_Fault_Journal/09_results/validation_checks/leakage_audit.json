@@ -1,0 +1,32 @@
+{
+  "rows": 390,
+  "class_by_split": {
+    "drb_1": {
+      "test": 52,
+      "train": 52,
+      "validation": 52
+    },
+    "drb_2": {
+      "test": 13,
+      "train": 13,
+      "validation": 13
+    },
+    "drb_3": {
+      "test": 26,
+      "train": 26,
+      "validation": 26
+    },
+    "healthy": {
+      "test": 39,
+      "train": 39,
+      "validation": 39
+    }
+  },
+  "unique_window_hashes": 390,
+  "duplicate_window_hashes": 0,
+  "block_cross_split_count": 0,
+  "window_length_samples": 650,
+  "sampling_rate_hz_assumed": 650.0,
+  "guard_samples": 650,
+  "limitation": "Blocks are non-overlapping and guard-separated, but some originate from the same acquisition session."
+}

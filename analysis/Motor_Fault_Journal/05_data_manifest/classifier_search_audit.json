@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "config": "C:\\Users\\IT\\Downloads\\MSC Papers\\Motor_Fault_Journal\\05_data_manifest\\frozen_classifier_search.json",
+  "model_order_matches_code": true,
+  "classifier_families_including_dummy": 11,
+  "real_classifier_families": 10,
+  "feature_sets": 3,
+  "candidates_per_feature_set": 48,
+  "total_primary_candidates": 144,
+  "per_model": {
+    "Dummy": {
+      "declared": 1,
+      "calculated_from_grid": 1,
+      "instantiated_by_code": 1,
+      "pass": true
+    },
+    "LogisticRegression": {
+      "declared": 3,
+      "calculated_from_grid": 3,
+      "instantiated_by_code": 3,
+      "pass": true
+    },
+    "GaussianNB": {
+      "declared": 3,
+      "calculated_from_grid": 3,
+      "instantiated_by_code": 3,
+      "pass": true
+    },
+    "KNN": {
+      "declared": 6,
+      "calculated_from_grid": 6,
+      "instantiated_by_code": 6,
+      "pass": true
+    },
+    "LinearSVM": {
+      "declared": 3,
+      "calculated_from_grid": 3,
+      "instantiated_by_code": 3,
+      "pass": true
+    },
+    "RBFSVM": {
+      "declared": 6,
+      "calculated_from_grid": 6,
+      "instantiated_by_code": 6,
+      "pass": true
+    },
+    "DecisionTree": {
+      "declared": 6,
+      "calculated_from_grid": 6,
+      "instantiated_by_code": 6,
+      "pass": true
+    },
+    "RandomForest": {
+      "declared": 4,
+      "calculated_from_grid": 4,
+      "instantiated_by_code": 4,
+      "pass": true
+    },
+    "ExtraTrees": {
+      "declared": 4,
+      "calculated_from_grid": 4,
+      "instantiated_by_code": 4,
+      "pass": true
+    },
+    "HistGradientBoosting": {
+      "declared": 8,
+      "calculated_from_grid": 8,
+      "instantiated_by_code": 8,
+      "pass": true
+    },
+    "MLP": {
+      "declared": 4,
+      "calculated_from_grid": 4,
+      "instantiated_by_code": 4,
+      "pass": true
+    }
+  }
+}

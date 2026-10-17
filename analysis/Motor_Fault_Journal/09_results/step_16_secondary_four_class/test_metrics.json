@@ -1,0 +1,13 @@
+{
+  "macro_f1": 0.9366883116883118,
+  "balanced_accuracy": 0.9519230769230769,
+  "mcc": 0.9256673685203181,
+  "macro_precision": 0.9256332320162107,
+  "macro_recall": 0.9519230769230769,
+  "accuracy": 0.9461538461538461,
+  "test_windows": 130,
+  "test_blocks": 10,
+  "refit_seconds": 0.7235041999956593,
+  "inference_seconds": 0.04962020000675693,
+  "mandatory_warning": "ASSEMBLY-CONFOUNDING WARNING: H0 used a different rotor-shaft-bearing assembly from the drilled-fault conditions. Therefore healthy-versus-fault discrimination may reflect assembly identity as well as rotor-bar condition. This secondary four-class result is not evidence of assembly-independent fault detection."
+}

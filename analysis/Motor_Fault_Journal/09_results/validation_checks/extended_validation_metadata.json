@@ -1,0 +1,40 @@
+{
+  "seed": 20260824,
+  "sampling_rate_hz_assumed": 650,
+  "window_samples": 650,
+  "bootstrap_resamples": 2000,
+  "test_blocks": 10,
+  "test_blocks_by_class": {
+    "healthy": 3,
+    "drb_1": 4,
+    "drb_2": 1,
+    "drb_3": 2
+  },
+  "test_windows": 130,
+  "features": [
+    "mean_centered",
+    "std",
+    "rms",
+    "peak_abs",
+    "peak_to_peak",
+    "skewness",
+    "kurtosis",
+    "crest_factor",
+    "shape_factor",
+    "impulse_factor",
+    "clearance_factor",
+    "median_abs_deviation",
+    "interquartile_range",
+    "energy",
+    "spectral_entropy",
+    "spectral_centroid_hz",
+    "spectral_spread_hz",
+    "dominant_frequency_hz",
+    "bandpower_0_25",
+    "bandpower_25_45",
+    "bandpower_45_55",
+    "bandpower_55_100",
+    "bandpower_100_325",
+    "fundamental_power_ratio"
+  ]
+}

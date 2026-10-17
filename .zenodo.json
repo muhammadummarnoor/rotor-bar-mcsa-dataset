@@ -1,0 +1,16 @@
+{
+  "title": "Time-blocked MCSA benchmark for progressively drilled rotor-bar faults: data, firmware and code",
+  "upload_type": "dataset",
+  "description": "Raw motor-current recordings (healthy and one, two and three partially drilled rotor bars), STM32/ADC acquisition sketch, window and split manifests, extracted features, analysis code and results supporting a time-blocked machine-learning benchmark of rotor-bar fault classification.",
+  "creators": [
+    {"name": "Noor, Muhammad Ummar", "affiliation": "Department of Electrical Engineering (RCET), University of Engineering and Technology Lahore, Pakistan"},
+    {"name": "Farooq, Jibran", "affiliation": "Department of Electrical Engineering (RCET), University of Engineering and Technology Lahore, Pakistan"},
+    {"name": "Noor, Muhammad Umman", "affiliation": "Department of Computer Science, GIFT University, Gujranwala, Pakistan"},
+    {"name": "Farooq, Haroon", "affiliation": "Department of Electrical Engineering (RCET), University of Engineering and Technology Lahore, Pakistan"},
+    {"name": "Ali, Waqas", "affiliation": "Department of Electrical Engineering (RCET), University of Engineering and Technology Lahore, Pakistan"},
+    {"name": "Ali, Usman", "affiliation": "Department of Computer Science, GIFT University, Gujranwala, Pakistan"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": ["motor current signature analysis", "induction motor", "rotor-bar fault", "machine learning", "condition monitoring"],
+  "access_right": "open"
+}

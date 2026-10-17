@@ -1,0 +1,397 @@
+{
+  "random_state": 20260824,
+  "method": "Deterministic stratified random allocation within each class; equal one-third train, validation, and test partitions.",
+  "controlled_comparison": {
+    "same_windows": true,
+    "same_window_hashes": true,
+    "same_labels": true,
+    "same_class_counts": true,
+    "same_window_length": true,
+    "intended_only_difference": "split assignment"
+  },
+  "counts": {
+    "rows": 390,
+    "by_random_split": {
+      "test": 130,
+      "train": 130,
+      "validation": 130
+    },
+    "by_class_random_split": {
+      "drb_1|test": 52,
+      "drb_1|train": 52,
+      "drb_1|validation": 52,
+      "drb_2|test": 13,
+      "drb_2|train": 13,
+      "drb_2|validation": 13,
+      "drb_3|test": 26,
+      "drb_3|train": 26,
+      "drb_3|validation": 26,
+      "healthy|test": 39,
+      "healthy|train": 39,
+      "healthy|validation": 39
+    },
+    "windows_changed_relative_to_blocked_split": 261,
+    "windows_unchanged_relative_to_blocked_split": 129,
+    "total_blocks": 30,
+    "fragmented_blocks": 30,
+    "runs_present_across_random_splits": 8,
+    "adjacent_pairs_total": 360,
+    "adjacent_pairs_crossing_random_splits": 252,
+    "adjacent_pair_cross_split_fraction": 0.7
+  },
+  "checks": {
+    "same_390_observation_ids": true,
+    "same_390_window_hashes": true,
+    "same_class_membership": true,
+    "same_provenance_rows": true,
+    "random_class_split_counts_match_blocked_counts": true,
+    "random_total_split_counts_are_130_each": true,
+    "deterministic_seed_recorded": true,
+    "random_baseline_fragments_blocks_as_expected": true,
+    "random_baseline_places_adjacent_windows_across_splits": true
+  },
+  "details": {
+    "fragmented_blocks": {
+      "healthy_c1_r1_b1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "healthy_c1_r1_b2": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "healthy_c1_r1_b3": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "healthy_c1_r1_b4": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "healthy_c1_r1_b5": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "healthy_c1_r1_b6": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "healthy_c1_r1_b7": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "healthy_c1_r1_b8": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "healthy_c1_r1_b9": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c1_r1_b1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c1_r1_b2": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c1_r1_b3": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c4_r1_b1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c4_r1_b2": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c4_r1_b3": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c10_r1_b1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c10_r1_b2": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c10_r1_b3": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c12_r1_b1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c12_r1_b2": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c12_r1_b3": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_2_c2_r1_b1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_2_c2_r1_b2": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_2_c2_r1_b3": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r1_b1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r1_b2": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r1_b3": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r2_b1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r2_b2": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r2_b3": [
+        "test",
+        "train",
+        "validation"
+      ]
+    },
+    "runs_across_splits": {
+      "healthy_c1_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c1_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c4_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c10_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c12_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_2_c2_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r2": [
+        "test",
+        "train",
+        "validation"
+      ]
+    },
+    "cross_split_adjacent_examples": [
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "7b056087804d448ab75a",
+        "a_split": "train",
+        "b": "94a8101f61ce6e759456",
+        "b_split": "validation"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "94a8101f61ce6e759456",
+        "a_split": "validation",
+        "b": "bac7a90267aaf1a9eba0",
+        "b_split": "train"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "bac7a90267aaf1a9eba0",
+        "a_split": "train",
+        "b": "33af0ab07aeda3915dda",
+        "b_split": "validation"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "33af0ab07aeda3915dda",
+        "a_split": "validation",
+        "b": "5c4c8905bef54e710313",
+        "b_split": "test"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "01a6e1a8ccea71d690f0",
+        "a_split": "test",
+        "b": "2d11ef96d39c0bc2ad82",
+        "b_split": "train"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "2d11ef96d39c0bc2ad82",
+        "a_split": "train",
+        "b": "0925bee07d2419825dec",
+        "b_split": "validation"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "0925bee07d2419825dec",
+        "a_split": "validation",
+        "b": "be360695fecfcdc51597",
+        "b_split": "train"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "be360695fecfcdc51597",
+        "a_split": "train",
+        "b": "0592c0722e1e328e051e",
+        "b_split": "validation"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "1c4e137767cbb8619fbd",
+        "a_split": "validation",
+        "b": "89545eeddafe3fd86f5c",
+        "b_split": "test"
+      },
+      {
+        "block_id": "healthy_c1_r1_b1",
+        "a": "89545eeddafe3fd86f5c",
+        "a_split": "test",
+        "b": "9e2aec3ce7cd8ffc719a",
+        "b_split": "train"
+      },
+      {
+        "block_id": "healthy_c1_r1_b2",
+        "a": "b283adda4d005f62660b",
+        "a_split": "validation",
+        "b": "0b37c9a95b7dc179d5ff",
+        "b_split": "train"
+      },
+      {
+        "block_id": "healthy_c1_r1_b2",
+        "a": "0b37c9a95b7dc179d5ff",
+        "a_split": "train",
+        "b": "d9f26ef53fc414f37f23",
+        "b_split": "validation"
+      },
+      {
+        "block_id": "healthy_c1_r1_b2",
+        "a": "7ec12655cf3a709670ff",
+        "a_split": "validation",
+        "b": "26c867d63ea7ba24145d",
+        "b_split": "test"
+      },
+      {
+        "block_id": "healthy_c1_r1_b2",
+        "a": "26c867d63ea7ba24145d",
+        "a_split": "test",
+        "b": "e8bbb9ab2ac87637d842",
+        "b_split": "validation"
+      },
+      {
+        "block_id": "healthy_c1_r1_b2",
+        "a": "cad7917f9bc3973e6234",
+        "a_split": "validation",
+        "b": "469e6cfa673a09ad8c0e",
+        "b_split": "train"
+      },
+      {
+        "block_id": "healthy_c1_r1_b2",
+        "a": "ee601283c1af0c4c540f",
+        "a_split": "train",
+        "b": "f4d9d41a4f61587a631a",
+        "b_split": "validation"
+      },
+      {
+        "block_id": "healthy_c1_r1_b3",
+        "a": "3b6dea2b662e92109189",
+        "a_split": "test",
+        "b": "14d3626d4e9b75fc777a",
+        "b_split": "validation"
+      },
+      {
+        "block_id": "healthy_c1_r1_b3",
+        "a": "6045c2728b814501ff0c",
+        "a_split": "validation",
+        "b": "6c93aeda32f4c2914e83",
+        "b_split": "train"
+      },
+      {
+        "block_id": "healthy_c1_r1_b3",
+        "a": "6c93aeda32f4c2914e83",
+        "a_split": "train",
+        "b": "f02cc4905df08c79cf4f",
+        "b_split": "test"
+      },
+      {
+        "block_id": "healthy_c1_r1_b3",
+        "a": "f02cc4905df08c79cf4f",
+        "a_split": "test",
+        "b": "dae9fda55feb51aa51ed",
+        "b_split": "validation"
+      }
+    ]
+  },
+  "interpretation": [
+    "The baseline does not duplicate windows or create direct sample-range overlap because the frozen windows are non-overlapping.",
+    "Its leakage risk arises from assigning temporally adjacent windows from the same macro-block and source run to different subsets.",
+    "The random split is an intentionally optimistic comparator and must not replace the blocked result as the primary estimate."
+  ],
+  "all_checks_pass": true
+}

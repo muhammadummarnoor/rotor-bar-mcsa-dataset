@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "source": "C:\\Users\\IT\\Downloads\\MSC Papers\\Motor_Fault_Journal\\10_code\\train_benchmark.py",
+  "configuration": "C:\\Users\\IT\\Downloads\\MSC Papers\\Motor_Fault_Journal\\05_data_manifest\\frozen_training_isolation.json",
+  "checks": {
+    "candidate_fit_uses_training_only": true,
+    "validation_prediction_used_for_ranking": true,
+    "test_metric_not_in_sort_keys": true,
+    "fresh_clone_for_final_model": true,
+    "final_refit_uses_development_partition": true,
+    "single_literal_test_prediction_call": true,
+    "imputer_is_pipeline_step": true,
+    "scaler_is_pipeline_step": true,
+    "no_smote_or_resampling": true
+  },
+  "important_scope_note": "This static audit verifies the confirmatory evaluate() path. Step 12 must additionally log the selected feature set before the one permitted test prediction."
+}

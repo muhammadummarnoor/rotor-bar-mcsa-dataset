@@ -1,0 +1,205 @@
+{
+  "checked_at": "2026-10-16T05:06:02.192761+05:00",
+  "checks": {
+    "step_12_primary_metrics_match": true,
+    "step_13_random_comparison_metrics_match": true,
+    "step_16_secondary_four_class_metrics_match": true,
+    "block_id_disjoint": true,
+    "window_hash_disjoint": true,
+    "cross_split_sample_ranges_disjoint": true,
+    "archived_input_hashes_match": true
+  },
+  "scope": "Saved predictions and provenance only; no model retraining",
+  "step_12_primary": {
+    "labels": [
+      "drb_1",
+      "drb_2",
+      "drb_3"
+    ],
+    "confusion_matrix": [
+      [
+        45,
+        2,
+        5
+      ],
+      [
+        1,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        26
+      ]
+    ],
+    "metrics": {
+      "accuracy": 0.9120879120879121,
+      "macro_f1": 0.9065123125273501,
+      "balanced_accuracy": 0.9294871794871794,
+      "macro_precision": 0.8913711347091432,
+      "macro_recall": 0.9294871794871794,
+      "mcc": 0.8572230821653064
+    },
+    "metric_checks": {
+      "accuracy": true,
+      "macro_f1": true,
+      "balanced_accuracy": true,
+      "macro_precision": true,
+      "macro_recall": true,
+      "mcc": true
+    },
+    "windows": 91,
+    "blocks": 7
+  },
+  "step_13_random_comparison": {
+    "labels": [
+      "drb_1",
+      "drb_2",
+      "drb_3"
+    ],
+    "confusion_matrix": [
+      [
+        52,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        0
+      ],
+      [
+        0,
+        0,
+        26
+      ]
+    ],
+    "metrics": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "mcc": 1.0
+    },
+    "metric_checks": {
+      "accuracy": true,
+      "macro_f1": true,
+      "balanced_accuracy": true,
+      "macro_precision": true,
+      "macro_recall": true,
+      "mcc": true
+    },
+    "windows": 91,
+    "blocks": 21
+  },
+  "step_16_secondary_four_class": {
+    "labels": [
+      "healthy",
+      "drb_1",
+      "drb_2",
+      "drb_3"
+    ],
+    "confusion_matrix": [
+      [
+        39,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        46,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        26
+      ]
+    ],
+    "metrics": {
+      "accuracy": 0.9461538461538461,
+      "macro_f1": 0.9366883116883117,
+      "balanced_accuracy": 0.9519230769230769,
+      "macro_precision": 0.9256332320162107,
+      "macro_recall": 0.9519230769230769,
+      "mcc": 0.9256673685203181
+    },
+    "metric_checks": {
+      "accuracy": true,
+      "macro_f1": true,
+      "balanced_accuracy": true,
+      "macro_precision": true,
+      "macro_recall": true,
+      "mcc": true
+    },
+    "windows": 130,
+    "blocks": 10
+  },
+  "smallest_cross_split_gap_samples": 1200,
+  "primary_windows_by_split": {
+    "train": 91,
+    "validation": 91,
+    "test": 91
+  },
+  "primary_test_support": {
+    "F1": 52,
+    "F2": 13,
+    "F3": 26
+  },
+  "runs_shared_across_splits": {
+    "drb_1_c1_r1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drb_1_c4_r1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drb_1_c10_r1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drb_1_c12_r1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drb_2_c2_r1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drb_3_c2_r1": [
+      "test",
+      "train",
+      "validation"
+    ],
+    "drb_3_c2_r2": [
+      "test",
+      "train",
+      "validation"
+    ]
+  },
+  "input_hash_checks": {
+    "features": true,
+    "feature_config": true,
+    "classifier_config": true,
+    "split_audit": true
+  },
+  "status": "PASS",
+  "interpretation": "PASS confirms these checks only. Time-block separation does not establish independent recording sessions or motors. Sampling rate remains an acquisition assumption until validated from source timing."
+}

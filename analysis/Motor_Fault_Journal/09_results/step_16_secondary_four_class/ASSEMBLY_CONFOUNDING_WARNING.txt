@@ -1,0 +1,1 @@
+ASSEMBLY-CONFOUNDING WARNING: H0 used a different rotor-shaft-bearing assembly from the drilled-fault conditions. Therefore healthy-versus-fault discrimination may reflect assembly identity as well as rotor-bar condition. This secondary four-class result is not evidence of assembly-independent fault detection.

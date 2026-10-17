@@ -1,0 +1,78 @@
+{
+  "primary_three_fault_task": {
+    "selected_model": "ExtraTrees",
+    "selected_features": "combined",
+    "macro_f1": 0.90651231252735,
+    "balanced_accuracy": 0.9294871794871794,
+    "mcc": 0.8572230821653064,
+    "accuracy": 0.9120879120879121,
+    "macro_f1_ci_95": [
+      0.833820239826914,
+      0.9834920634920636
+    ],
+    "test_windows": 91,
+    "test_blocks": 7
+  },
+  "random_window_diagnostic": {
+    "macro_f1": 1.0,
+    "balanced_accuracy": 1.0,
+    "mcc": 1.0,
+    "accuracy": 1.0,
+    "macro_f1_minus_blocked": 0.09348768747265002,
+    "warning": "Random-window result is diagnostic and leakage-prone by design; it is not the main generalization result."
+  },
+  "feature_ablation": [
+    {
+      "feature_family": "time_domain",
+      "classifier": "LinearSVM",
+      "macro_f1": 0.7349806201550387,
+      "balanced_accuracy": 0.8012820512820514,
+      "mcc": 0.6347917188462602
+    },
+    {
+      "feature_family": "frequency_domain",
+      "classifier": "HistGradientBoosting",
+      "macro_f1": 0.9748290650991353,
+      "balanced_accuracy": 0.9871794871794872,
+      "mcc": 0.962742177019178
+    },
+    {
+      "feature_family": "combined",
+      "classifier": "ExtraTrees",
+      "macro_f1": 0.90651231252735,
+      "balanced_accuracy": 0.9294871794871794,
+      "mcc": 0.8572230821653064
+    }
+  ],
+  "window_sensitivity": [
+    {
+      "window_samples": 325,
+      "selected_feature_family": "frequency_domain",
+      "selected_classifier": "LinearSVM",
+      "macro_f1": 0.9953915084275656
+    },
+    {
+      "window_samples": 650,
+      "selected_feature_family": "combined",
+      "selected_classifier": "ExtraTrees",
+      "macro_f1": 0.90651231252735
+    },
+    {
+      "window_samples": 1300,
+      "selected_feature_family": "frequency_domain",
+      "selected_classifier": "LinearSVM",
+      "macro_f1": 1.0
+    }
+  ],
+  "secondary_four_class": {
+    "macro_f1": 0.9366883116883118,
+    "balanced_accuracy": 0.9519230769230769,
+    "mcc": 0.9256673685203181,
+    "accuracy": 0.9461538461538461,
+    "macro_f1_ci_95": [
+      0.8886169818316648,
+      0.9876190476190476
+    ],
+    "mandatory_warning": "ASSEMBLY-CONFOUNDING WARNING: H0 used a different rotor-shaft-bearing assembly from the drilled-fault conditions. Therefore healthy-versus-fault discrimination may reflect assembly identity as well as rotor-bar condition. This secondary four-class result is not evidence of assembly-independent fault detection."
+  }
+}

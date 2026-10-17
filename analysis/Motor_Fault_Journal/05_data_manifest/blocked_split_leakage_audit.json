@@ -1,0 +1,112 @@
+{
+  "protocol": {
+    "window_samples": 650,
+    "window_seconds": 1.0,
+    "overlap_samples": 0,
+    "macro_block_samples": 9000,
+    "minimum_interblock_guard_samples": 650,
+    "split_before_windowing": true
+  },
+  "counts": {
+    "rows": 390,
+    "blocks": 30,
+    "runs_with_windows": 8,
+    "by_class": {
+      "drb_1": 156,
+      "drb_2": 39,
+      "drb_3": 78,
+      "healthy": 117
+    },
+    "by_split": {
+      "test": 130,
+      "train": 130,
+      "validation": 130
+    },
+    "by_class_split": {
+      "drb_1|test": 52,
+      "drb_1|train": 52,
+      "drb_1|validation": 52,
+      "drb_2|test": 13,
+      "drb_2|train": 13,
+      "drb_2|validation": 13,
+      "drb_3|test": 26,
+      "drb_3|train": 26,
+      "drb_3|validation": 26,
+      "healthy|test": 39,
+      "healthy|train": 39,
+      "healthy|validation": 39
+    }
+  },
+  "checks": {
+    "source_join_errors_zero": true,
+    "row_count_390": true,
+    "class_counts_match": true,
+    "class_split_counts_match": true,
+    "all_windows_650_samples": true,
+    "all_window_durations_one_second": true,
+    "observation_ids_unique": true,
+    "no_block_shared_across_splits": true,
+    "no_window_hash_shared_across_splits": true,
+    "no_cross_split_sample_overlap": true,
+    "no_within_split_sample_overlap": true,
+    "all_interblock_guards_at_least_650": true,
+    "all_provenance_fields_populated": true
+  },
+  "audit_details": {
+    "join_errors": [],
+    "shared_blocks": {},
+    "cross_split_hashes": {},
+    "cross_split_overlaps": [],
+    "within_split_overlaps": [],
+    "guard_violations": [],
+    "duplicate_observation_ids": [],
+    "runs_present_in_multiple_splits": {
+      "healthy_c1_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c1_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c4_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c10_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_1_c12_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_2_c2_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r1": [
+        "test",
+        "train",
+        "validation"
+      ],
+      "drb_3_c2_r2": [
+        "test",
+        "train",
+        "validation"
+      ]
+    }
+  },
+  "limitations": [
+    "Recovered run IDs are contiguous numeric sequences, not verified physical acquisition-session IDs.",
+    "The same recovered run can contribute non-overlapping guarded blocks to train, validation, and test.",
+    "Passing this audit supports temporal block separation, not independent-session or cross-component generalization."
+  ],
+  "all_checks_pass": true
+}

@@ -1,0 +1,9 @@
+class_label,paper_label,run_id,samples_used,peak_hz_at_assumed_rate,implied_sampling_rate
+healthy,H0,healthy_c1_r1,29000,49.363,658.4
+drb_1,F1,drb_1_c1_r1,29000,49.732,653.5
+drb_1,F1,drb_1_c4_r1,29000,49.807,652.5
+drb_1,F1,drb_1_c10_r1,29000,49.37,658.3
+drb_1,F1,drb_1_c12_r1,29000,49.581,655.5
+drb_2,F2,drb_2_c2_r1,29000,49.899,651.3
+drb_3,F3,drb_3_c2_r1,29000,49.321,659.0
+drb_3,F3,drb_3_c2_r2,29000,49.256,659.8

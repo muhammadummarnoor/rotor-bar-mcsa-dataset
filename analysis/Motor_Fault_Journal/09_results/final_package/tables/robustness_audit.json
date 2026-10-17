@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "checks": {
+    "primary_test_lock_completed": true,
+    "no_new_test_prediction_call_in_step17": true,
+    "all_saved_test_metrics_reproduce": true,
+    "bootstrap_draw_count_2000": true,
+    "bootstrap_metrics_complete": true,
+    "five_validation_seeds_completed": true,
+    "all_seed_metrics_finite": true,
+    "selected_model_beats_dummy_macro_f1": true,
+    "seven_test_blocks_present": true
+  },
+  "metric_reproduction": {
+    "macro_f1": true,
+    "balanced_accuracy": true,
+    "mcc": true,
+    "macro_precision": true,
+    "macro_recall": true,
+    "accuracy": true
+  },
+  "validation_seed_stability": {
+    "seeds": [
+      17,
+      101,
+      1009,
+      2024,
+      20260824
+    ],
+    "macro_f1_mean": 1.0,
+    "macro_f1_std": 0.0,
+    "macro_f1_min": 1.0,
+    "macro_f1_max": 1.0,
+    "window_prediction_unanimity_fraction": 1.0
+  },
+  "dummy_baseline": {
+    "majority_label": "drb_1",
+    "macro_f1": 0.24242424242424243,
+    "balanced_accuracy": 0.3333333333333333,
+    "mcc": 0.0,
+    "macro_precision": 0.19047619047619047,
+    "macro_recall": 0.3333333333333333,
+    "accuracy": 0.5714285714285714
+  },
+  "selected_primary": {
+    "macro_f1": 0.90651231252735,
+    "balanced_accuracy": 0.9294871794871794,
+    "mcc": 0.8572230821653064,
+    "macro_precision": 0.8913711347091432,
+    "macro_recall": 0.9294871794871794,
+    "accuracy": 0.9120879120879121
+  },
+  "block_accuracy": {
+    "minimum": 0.6153846153846154,
+    "median": 1.0,
+    "maximum": 1.0
+  },
+  "primary_artifact_hashes": {
+    "test_predictions.csv": "6e5a8061e7d3b37eb9dadf191cc1b67596d72211542017e9eb66cb1823a3a52f",
+    "test_metrics.json": "a888964c30db59150ef42abf906b628950d30e8a401c9edabb5f92d58a68b265",
+    "block_bootstrap_ci.csv": "a6108306c0da83b9bba51386494b194c8c0c6853eb4343df27ac5eec385417f9",
+    "TEST_EVALUATION_LOCK.json": "bbe8ffcb2e0b9056b25f42306cfc468547e83ee9ee40f9266ddce6409dba16f2"
+  },
+  "interpretation_limit": "Robustness is conditional on the recovered guarded blocks. It does not replace independent-session, cross-load, or cross-motor external validation."
+}

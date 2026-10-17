@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED",
+  "reproduction_650": {
+    "row_count_matches": true,
+    "identifiers_match": true,
+    "feature_values_match": true,
+    "all_checks_pass": true
+  },
+  "new_supporting_test_models": 2
+}

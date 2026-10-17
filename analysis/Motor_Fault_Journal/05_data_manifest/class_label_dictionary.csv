@@ -1,0 +1,5 @@
+paper_label,code_label,physical_condition,assembly_group,ordinal_stage,primary_task,secondary_task,binary_exploratory,manuscript_term
+H0,healthy,intact healthy rotor condition,healthy_assembly,0,no,yes,healthy,"healthy condition; separate assembly"
+F1,drb_1,one rotor bar with one partial drilled hole,progressive_fault_assembly,1,yes,yes,fault,"one partially drilled rotor bar"
+F2,drb_2,two rotor bars with partial drilled holes,progressive_fault_assembly,2,yes,yes,fault,"two partially drilled rotor bars"
+F3,drb_3,three rotor bars with partial drilled holes,progressive_fault_assembly,3,yes,yes,fault,"three partially drilled rotor bars"

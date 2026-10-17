@@ -1,0 +1,12 @@
+{
+  "macro_f1": 0.90651231252735,
+  "balanced_accuracy": 0.9294871794871794,
+  "mcc": 0.8572230821653064,
+  "macro_precision": 0.8913711347091432,
+  "macro_recall": 0.9294871794871794,
+  "accuracy": 0.9120879120879121,
+  "refit_seconds": 0.9256376000121236,
+  "inference_seconds": 0.07161620003171265,
+  "test_windows": 91,
+  "test_blocks": 7
+}

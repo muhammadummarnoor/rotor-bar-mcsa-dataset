@@ -1,0 +1,35 @@
+{
+  "task": "primary_progressive_fault_severity",
+  "labels": [
+    "drb_1",
+    "drb_2",
+    "drb_3"
+  ],
+  "split_strategy": "guard_separated_time_blocked",
+  "selection_data": "training fit; validation ranking only",
+  "feature_family": "frequency_domain",
+  "classifier": "LinearSVM",
+  "variant_index": 2,
+  "validation_macro_f1": 1.0,
+  "validation_balanced_accuracy": 1.0,
+  "validation_mcc": 1.0,
+  "parameters": {
+    "C": 10.0,
+    "break_ties": false,
+    "cache_size": 200,
+    "class_weight": "balanced",
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": "scale",
+    "kernel": "linear",
+    "max_iter": -1,
+    "probability": "deprecated",
+    "random_state": 20260824,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+  },
+  "candidate_count": 144,
+  "random_state": 20260824
+}

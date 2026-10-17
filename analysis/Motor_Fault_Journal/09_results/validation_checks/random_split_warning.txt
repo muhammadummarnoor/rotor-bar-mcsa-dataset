@@ -1,0 +1,1 @@
+The random-window result is a diagnostic comparator only. It mixes windows from the same source recordings and blocks across partitions and must not be reported as the main generalization result.

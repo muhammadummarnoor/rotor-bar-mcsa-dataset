@@ -1,0 +1,4 @@
+metric,point_estimate,ci_95_lower,ci_95_upper,resamples,cluster_unit
+accuracy,0.9307692307692308,0.8692307692307693,0.9846153846153847,2000,"test block, stratified by class"
+macro_f1,0.9168813642497853,0.862627729913845,0.9744496855345912,2000,"test block, stratified by class"
+mcc,0.9040986669718706,0.831654073210679,0.9782328864952918,2000,"test block, stratified by class"

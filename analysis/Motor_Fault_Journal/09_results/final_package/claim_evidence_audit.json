@@ -1,0 +1,30 @@
+{
+  "C1": {
+    "status": "Supported",
+    "evidence": "Primary macro-F1 0.9065 (95% block-bootstrap CI 0.8338-0.9835), balanced accuracy 0.9295, MCC 0.8572."
+  },
+  "C2": {
+    "status": "Supported",
+    "evidence": "Random-window macro-F1 1.0000 versus blocked 0.9065; absolute increase 0.0935."
+  },
+  "C3": {
+    "status": "Supported",
+    "evidence": "Frequency-only macro-F1 0.9748 versus time-only 0.7350 under the prespecified ablation."
+  },
+  "C4": {
+    "status": "Not supported",
+    "evidence": "Combined macro-F1 0.9065 was lower than frequency-only 0.9748."
+  },
+  "C5": {
+    "status": "Not supported",
+    "evidence": "Extra Trees was validation-selected, but an accuracy-complexity trade-off was not formally optimized; frequency-only HGB scored higher in the supporting test ablation."
+  },
+  "C6": {
+    "status": "Supported",
+    "evidence": "C1 performance was obtained using the documented low-cost single-phase current acquisition arrangement; scope is fixed-load feasibility only."
+  },
+  "C7": {
+    "status": "Supported with mandatory limitation",
+    "evidence": "Secondary macro-F1 0.9367 (95% CI 0.8886-0.9876), with healthy-versus-fault separation confounded by assembly identity."
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "feature_file": "07_features\\current_window_features.csv",
+  "rows": 390,
+  "numeric_features_extracted": 24,
+  "frozen_model_features": 23,
+  "time_features": [
+    "std",
+    "rms",
+    "peak_abs",
+    "peak_to_peak",
+    "skewness",
+    "kurtosis",
+    "crest_factor",
+    "shape_factor",
+    "impulse_factor",
+    "clearance_factor",
+    "median_abs_deviation",
+    "interquartile_range",
+    "energy"
+  ],
+  "frequency_features": [
+    "spectral_entropy",
+    "spectral_centroid_hz",
+    "spectral_spread_hz",
+    "dominant_frequency_hz",
+    "bandpower_0_25",
+    "bandpower_25_45",
+    "bandpower_45_55",
+    "bandpower_55_100",
+    "bandpower_100_325",
+    "fundamental_power_ratio"
+  ],
+  "excluded_features": {
+    "mean_centered": "Deterministically zero after window centering; observed values are only floating-point residue (about +/-5.67e-14)."
+  },
+  "missing_cells_in_frozen_features": 0,
+  "infinite_cells_in_frozen_features": 0,
+  "constant_model_features": [],
+  "duplicate_model_columns": [],
+  "ranges": {
+    "mean_centered": {
+      "min": -5.6668516033543996e-14,
+      "max": 5.6668516033543996e-14,
+      "unique_values": 226
+    },
+    "std": {
+      "min": 51.79017826666302,
+      "max": 85.03100228743588,
+      "unique_values": 390
+    },
+    "rms": {
+      "min": 51.750324333660494,
+      "max": 84.96556864766634,
+      "unique_values": 390
+    },
+    "peak_abs": {
+      "min": 84.31076923076921,
+      "max": 189.96153846153845,
+      "unique_values": 386
+    },
+    "peak_to_peak": {
+      "min": 168.0,
+      "max": 335.0,
+      "unique_values": 133
+    },
+    "skewness": {
+      "min": -0.0224405458484363,
+      "max": 0.1430432678749158,
+      "unique_values": 390
+    },
+    "kurtosis": {
+      "min": -1.5146502201187355,
+      "max": -1.0544329499204983,
+      "unique_values": 390
+    },
+    "crest_factor": {
+      "min": 1.468491215996237,
+      "max": 2.3723428447145865,
+      "unique_values": 390
+    },
+    "shape_factor": {
+      "min": 1.1012128345474563,
+      "max": 1.1526877531588204,
+      "unique_values": 390
+    },
+    "impulse_factor": {
+      "min": 1.6208648951055848,
+      "max": 2.630217204207695,
+      "unique_values": 390
+    },
+    "clearance_factor": {
+      "min": 1.7573839301089835,
+      "max": 2.866613997745571,
+      "unique_values": 390
+    },
+    "median_abs_deviation": {
+      "min": 48.0,
+      "max": 83.0,
+      "unique_values": 50
+    },
+    "interquartile_range": {
+      "min": 94.75,
+      "max": 165.75,
+      "unique_values": 112
+    },
+    "energy": {
+      "min": 2678.096068639053,
+      "max": 7219.147855621301,
+      "unique_values": 390
+    },
+    "spectral_entropy": {
+      "min": 1.278146470368326,
+      "max": 1.9346277180376616,
+      "unique_values": 390
+    },
+    "spectral_centroid_hz": {
+      "min": 45.36430746586946,
+      "max": 51.126649324741166,
+      "unique_values": 390
+    },
+    "spectral_spread_hz": {
+      "min": 7.1235701978969965,
+      "max": 17.739353119269257,
+      "unique_values": 390
+    },
+    "dominant_frequency_hz": {
+      "min": 49.0,
+      "max": 50.0,
+      "unique_values": 2
+    },
+    "bandpower_0_25": {
+      "min": 29521.81688882842,
+      "max": 22348762.60528789,
+      "unique_values": 390
+    },
+    "bandpower_25_45": {
+      "min": 24257.98849867768,
+      "max": 530475.5934670606,
+      "unique_values": 390
+    },
+    "bandpower_45_55": {
+      "min": 201396225.9773169,
+      "max": 569371124.365342,
+      "unique_values": 390
+    },
+    "bandpower_55_100": {
+      "min": 30325.905139931994,
+      "max": 827846.205748376,
+      "unique_values": 390
+    },
+    "bandpower_100_325": {
+      "min": 506263.1611031847,
+      "max": 5109612.278676491,
+      "unique_values": 390
+    },
+    "fundamental_power_ratio": {
+      "min": 0.9263489788516096,
+      "max": 0.9982907963771498,
+      "unique_values": 390
+    }
+  },
+  "checks": {
+    "rows_390": true,
+    "all_frozen_features_present": true,
+    "time_feature_count_13": true,
+    "frequency_feature_count_10": true,
+    "combined_feature_count_23": true,
+    "no_missing_model_values": true,
+    "no_infinite_model_values": true,
+    "no_constant_model_features": true,
+    "no_exact_duplicate_model_columns": true,
+    "mean_centered_excluded": true,
+    "all_window_hashes_unique": true
+  },
+  "all_checks_pass": true,
+  "cautions": [
+    "std and rms, and energy and rms, are mathematically related; they are retained for transparent conventional-feature benchmarking, not interpreted as independent physical mechanisms.",
+    "Band powers are in squared ADC/FFT units because a verified current calibration equation is unavailable.",
+    "The 1 Hz FFT resolution and absent synchronized RPM do not support exact per-window slip-sideband tracking.",
+    "Feature importance must not be interpreted causally in the presence of correlated predictors."
+  ]
+}

@@ -1,0 +1,8 @@
+block_id,label,windows,correct,accuracy
+drb_1_c10_r1_b3,drb_1,13,8,0.6153846153846154
+drb_1_c12_r1_b3,drb_1,13,11,0.8461538461538461
+drb_1_c1_r1_b3,drb_1,13,13,1.0
+drb_1_c4_r1_b3,drb_1,13,13,1.0
+drb_2_c2_r1_b3,drb_2,13,12,0.9230769230769231
+drb_3_c2_r1_b3,drb_3,13,13,1.0
+drb_3_c2_r2_b3,drb_3,13,13,1.0

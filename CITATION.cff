@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it and the associated manuscript."
+title: "Time-blocked MCSA benchmark for progressively drilled rotor-bar faults: data, firmware and code"
+type: dataset
+authors:
+  - family-names: Noor
+    given-names: Muhammad Ummar
+    email: muhammadummar300@gmail.com
+    affiliation: "Department of Electrical Engineering (RCET), University of Engineering and Technology Lahore, Lahore, Pakistan"
+  - family-names: Farooq
+    given-names: Jibran
+    affiliation: "Department of Electrical Engineering (RCET), University of Engineering and Technology Lahore, Lahore, Pakistan"
+  - family-names: Noor
+    given-names: Muhammad Umman
+    affiliation: "Department of Computer Science, GIFT University, Gujranwala, Pakistan"
+  - family-names: Farooq
+    given-names: Haroon
+    affiliation: "Department of Electrical Engineering (RCET), University of Engineering and Technology Lahore, Lahore, Pakistan"
+  - family-names: Ali
+    given-names: Waqas
+    affiliation: "Department of Electrical Engineering (RCET), University of Engineering and Technology Lahore, Lahore, Pakistan"
+  - family-names: Ali
+    given-names: Usman
+    affiliation: "Department of Computer Science, GIFT University, Gujranwala, Pakistan"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-10-16"
+keywords:
+  - motor current signature analysis
+  - induction motor
+  - rotor-bar fault
+  - machine learning
+  - temporal validation

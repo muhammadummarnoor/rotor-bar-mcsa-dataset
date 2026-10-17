@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "frozen_date": "2026-08-24",
+  "development_stages": [
+    "fit every candidate pipeline on training windows only",
+    "rank candidates and feature sets using validation labels only",
+    "freeze exactly one classifier, variant, and feature set",
+    "clone and refit the frozen pipeline on combined training and validation windows",
+    "predict the test set exactly once",
+    "report the frozen test result without reopening selection"
+  ],
+  "pipeline_rules": {
+    "median_imputation": "fit inside each pipeline using its current fitting partition only",
+    "standardization": "fit inside scale-sensitive pipelines using its current fitting partition only",
+    "feature_selection": "none",
+    "resampling_or_smote": "none",
+    "test_set_preprocessing_fit": "prohibited",
+    "test_set_model_or_feature_selection": "prohibited"
+  },
+  "selection_data": "validation only",
+  "final_refit_data": "train + validation after selection freeze",
+  "test_evaluations_per_confirmatory_task_and_split_strategy": 1,
+  "primary_split_strategy": "guard-separated time-blocked",
+  "random_window_role": "diagnostic comparator using a separately frozen manifest",
+  "random_state": 20260824
+}

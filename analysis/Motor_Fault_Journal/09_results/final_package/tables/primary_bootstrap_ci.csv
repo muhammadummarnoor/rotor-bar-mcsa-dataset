@@ -1,0 +1,5 @@
+metric,point_estimate,ci_level,ci_lower,ci_upper,resamples,cluster_unit,seed
+macro_f1,0.90651231252735,0.95,0.833820239826914,0.9834920634920635,2000,"test block, stratified by true class",20260824
+balanced_accuracy,0.9294871794871794,0.95,0.8782051282051282,0.9743589743589745,2000,"test block, stratified by true class",20260824
+mcc,0.8572230821653064,0.95,0.7447656817063933,0.9808540583082639,2000,"test block, stratified by true class",20260824
+accuracy,0.9120879120879121,0.95,0.8241758241758241,0.989010989010989,2000,"test block, stratified by true class",20260824
