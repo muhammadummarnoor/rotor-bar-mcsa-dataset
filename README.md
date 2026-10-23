@@ -1,8 +1,6 @@
 # Time-blocked MCSA benchmark for progressively drilled rotor-bar faults
 
-Raw motor-current recordings, acquisition firmware, analysis code and results supporting the manuscript
-**"Time-Blocked Machine-Learning Benchmarking for MCSA-Based Classification of Progressive Partially Drilled Rotor-Bar Faults"**
-(Noor, Farooq, Noor, Farooq, Ali and Ali).
+Raw motor-current recordings, acquisition firmware, analysis code and results supporting a manuscript on guarded time-block evaluation of MCSA rotor-bar fault classification (submitted to Sensors) (Noor, Farooq, Noor, Farooq, Ali and Ali).
 
 > Replace `DOI-PLACEHOLDER` and `GITHUB-URL-PLACEHOLDER` below once the Zenodo record and GitHub repository exist.
 > Archive DOI: https://doi.org/DOI-PLACEHOLDER · Code: GITHUB-URL-PLACEHOLDER
