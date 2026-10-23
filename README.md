@@ -2,7 +2,6 @@
 
 Raw motor-current recordings, acquisition firmware, analysis code and results supporting a manuscript on guarded time-block evaluation of MCSA rotor-bar fault classification (submitted to Sensors) (Noor, Farooq, Noor, Farooq, Ali and Ali).
 
-> Replace `DOI-PLACEHOLDER` and `GITHUB-URL-PLACEHOLDER` below once the Zenodo record and GitHub repository exist.
 > Archive DOI: [https://doi.org/10.5281/zenodo.23438066](https://doi.org/10.5281/zenodo.23438066) · Code: [https://github.com/muhammadummarnoor/rotor-bar-mcsa-dataset](https://github.com/muhammadummarnoor/rotor-bar-mcsa-dataset)
 
 ## What this is
