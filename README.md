@@ -76,13 +76,6 @@ test predictions.
 * **Results**: `09_results/step_12_primary/` holds the validation leaderboard (144 configurations), the selected configuration
   frozen before testing, test predictions, confusion matrix, per-class metrics and the block-bootstrap interval.
 
-## Known limitations (also stated in the paper)
-
-* One rotor assembly carries F1–F3, so the results show discrimination among drilling stages, not generalisation to other motors.
-* The healthy condition used a different assembly; healthy-versus-fault results can include assembly differences.
-* The 650 samples/s rate is taken from a note in the three-bar file and the conference paper. Source timestamps cannot confirm it. `validate_sampling_rate.py` checks it against the 50 Hz supply line: the implied rate is 651-660 samples/s in all eight long records (results in `09_results/sampling_rate_check/`). This supports the assumed rate on average; it does not show the rate was constant within a record.
-* Rotor speed was not logged with the recordings. Operating line voltage was 415 V.
-* Several stop-and-restart repetitions were made, but restart boundaries are not encoded in every file, so time blocks are not independent sessions.
 
 ## Not included
 
